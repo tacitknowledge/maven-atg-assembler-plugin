@@ -9,11 +9,13 @@ or local filesystem repository. However, you may want to modify the pom and chan
 dependency to a system dependency.
 
 The dependency is currently set to:
+---------------------------
 <dependency>
   <groupId>>atg</groupId>
   <artifactId>assembler</artifactId>
   <version>2007.1.p3</version>
 </dependency>
+---------------------------
 
 ------------------------------------------------------------------------------------------------------------------------
 Goals
