@@ -14,6 +14,7 @@ dependency to a system dependency.
   	  <artifactId>assembler</artifactId>
   	  <version>2007.1.p3</version>
 	</dependency>
+ you also will need to build and install our [maven-plugin-support library](https://github.com/tacitknowledge/maven-plugin-support)
 
 
 # Goals
