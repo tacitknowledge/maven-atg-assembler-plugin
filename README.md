@@ -2,6 +2,19 @@ Maven ATG 2007.1.p3 Assembler Plugin
         Generate ATG-specific manifests and descriptors for ATG module creation,
         and assemble/package an ATG BigEar for JBoss. This plugin wraps ATG's assembler.jar
 
+
+NOTE:  you must have a licensed version of the 2007.1.p3 assembler jar from ATG to build this code.  
+Its used in the ant scripts provided by ATG (now Oracle).  We recommend adding this to a mirror 
+or local filesystem repository. However, you may want to modify the pom and change the 
+dependency to a system dependency.
+
+The dependency is currently set to:
+<dependency>
+  <groupId>>atg</groupId>
+  <artifactId>assembler</artifactId>
+  <version>2007.1.p3</version>
+</dependency>
+
 ------------------------------------------------------------------------------------------------------------------------
 Goals
 update-appxml - updates the app xml for jboss
