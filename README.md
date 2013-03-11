@@ -19,9 +19,9 @@ Dependency is currently set to:
 
 ------------------------------------------------------------------------------------------------------------------------
 Goals
-update-appxml - updates the app xml for jboss
-war-manifest - creates the MANIFEST.MF for the war according to Nucleus needs
-ear-manifest - creates the MANIFEST.MF for the ear according to Nucleus needs
-assemble-unpacked-ear - creates the directory structure for an unpacked ear file
+update-appxml: updates the app xml for jboss
+war-manifest: creates the MANIFEST.MF for the war according to Nucleus needs
+ear-manifest: creates the MANIFEST.MF for the ear according to Nucleus needs
+assemble-unpacked-ear:  creates the directory structure for an unpacked ear file
 ------------------------------------------------------------------------------------------------------------------------
 
