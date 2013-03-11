@@ -15,6 +15,7 @@ Dependency is currently set to:
   	  <artifactId>assembler</artifactId>
   	  <version>2007.1.p3</version>
 	</dependency>
+
 ---------------------------
 
 ------------------------------------------------------------------------------------------------------------------------
@@ -23,5 +24,6 @@ update-appxml: updates the app xml for jboss
 war-manifest: creates the MANIFEST.MF for the war according to Nucleus needs
 ear-manifest: creates the MANIFEST.MF for the ear according to Nucleus needs
 assemble-unpacked-ear:  creates the directory structure for an unpacked ear file
+
 ------------------------------------------------------------------------------------------------------------------------
 
